@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    line-height: 2.0;
+    color: var(--dark);
+}
+.img{
+    display: block;
+    width: 100%
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://www.schengenvisainfo.com/news/wp-content/uploads/2022/03/Travel-to-Paris-Europe-tour-woman-with-suitcase-near-Eiffel-Tower-France.jpg") center/cover no-repeat fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.navbar-brand{
+    color: #0f1215;
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--Playfair);
+    letter-spacing: 1.5px;
+    transition: opacity 0.5s ease;
+}
+.navbar-nav{
+    padding: 0.8rem 0 0.2rem 0;
+    text-align: center;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    font-family: var(--Roboto);
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: rgb(31, 7, 128);
+    text-decoration: none;
+    padding: 0.4rem 2.0rem;
+    letter-spacing: 5px;
+    transition: opacity 0s ease-out;
+}
+.navbar-nav a:hover{
+    opacity: 0.7;
+}
+.banner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: hsla(185, 35%, 93%, 0.817);
+}
+.banner-title{
+    font-size: 2.2rem;
+    font-family: var(--Playfair);
+    line-height: 6;
+}
+.banner p{
+    padding: 1rem 0 0.2rem 0;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-family: var(--Roboto);
+    font-weight: 300;
+    color: rgb(247, 244, 246);
+    word-spacing: 3.5px;
+}
+.banner form{
+    background: white;
+    padding: 0.3rem 0.3rem;
+    display: flex;
+    border-radius: 2.2rem;
+    justify-content: space-between;
+}
+ 
+input[type="file"]{
+    display:none;
+}
+label{
+    color:white;
+    height:40px;
+    width:200px;
+    position: absolute;
+    margin: auto;
+    top:50;
+    bottom:60;
+    border-radius: 4rem;
+    background-color: grey;
+    left:0;
+    right:0;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
